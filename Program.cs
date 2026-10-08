@@ -1,6 +1,6 @@
 ﻿int lessonNumber = 5;
 int totalLessons = 1;
-while (lessonNumber  >= totalLessons)
+while (lessonNumber >= totalLessons)
 {
     Console.WriteLine($"пара{lessonNumber}");
     lessonNumber--;
@@ -19,14 +19,15 @@ while (grade != -1)
 }
 Console.WriteLine($"счет оценок{count}");
 Console.WriteLine("Ввод завершен");
-
+//3
 int summ = 0;
 int countt = 0;
 int max = 0;
 Console.WriteLine("Вводите оценки по одной, для завершения введите -1:");
 int gradee = int.Parse(Console.ReadLine());
 
-if (gradee != -1) {
+if (gradee != -1)
+{
     max = gradee;
 }
 while (gradee != -1)
@@ -97,7 +98,7 @@ while (true)
     string nam = Console.ReadLine();
     if (nam.ToLower() == "конец")
     {
-        break; 
+        break;
     }
 
     couunt++;
@@ -106,10 +107,10 @@ Console.WriteLine($"Всего введено имён: {couunt}");
 
 
 //1
- int e = 5;
+int e = 5;
 for (int u = e; u >= 1; u--)
 {
-  Console.WriteLine(u);
+    Console.WriteLine(u);
 }
 Console.WriteLine("Старт!");
 //5
@@ -122,7 +123,7 @@ while (true)
     if (userCode == correctCode)
     {
         Console.WriteLine("Дверь открыта");
-        break;  
+        break;
     }
     else
     {
